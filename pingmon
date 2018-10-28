@@ -87,7 +87,8 @@ echo "plot '"ip_dat.dat"' with lines" >> ip_graph.gnu
 
 display "ip_graph.png" &
 #############################################################################
-
+#Remove unecessary files
 rm ping_out
 rm log_temp
 rm ip_graph.gnu
+#############################################################################
